@@ -40,7 +40,7 @@ nav ul li:last-child{
     border-radius: 5px;
     margin-right: 10px;
     font-size:16px;
-    width: 200px;
+    width: 60px;
     height: 30px;
 }
 .search-container label{
@@ -48,7 +48,7 @@ nav ul li:last-child{
 }
 #search-button{
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 5px;
     background-color: #007bff;
     color: #fff;
     border:none;
@@ -152,7 +152,7 @@ footer
         height: auto;
     }
     table-container {
-        max-width: 90%; /* Adjust this value as needed */
+        max-width: 30%; /* Adjust this value as needed */
         margin: 0 auto; /* Center the table container horizontally */
     }
 }
