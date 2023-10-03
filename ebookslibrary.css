@@ -94,53 +94,53 @@ footer
     background-color: #333;
     padding: 20px;
 }
-/* Add this CSS code at the end of your existing CSS */
-
-/* Mobile-first styles */
 @media (max-width: 768px) {
-    /* Adjust header styles for mobile */
     header {
-        padding: 10px; /* Reduce padding for smaller screens */
+        padding: 10px;
     }
     
     nav ul li {
-        margin-right: 10px; /* Reduce margin between navigation items */
+        margin-right: 10px;
     }
     
     nav ul li a {
-        font-size: 14px; /* Reduce font size for smaller screens */
+        font-size: 14px;
     }
     
     .logo-container {
-        order: 1; /* Move logo to the top on mobile */
+        order: 1;
     }
     
     .search-container {
-        order: 2; /* Move search bar below logo on mobile */
+        order: 2;
     }
     
     .search-container input[type="text"] {
-        width: 150px; /* Reduce input width for smaller screens */
+        width: 150px;
     }
     
-    /* Adjust table styles for mobile */
     .header-cell {
         padding: 10px;
         margin: 0;
     }
     
-    /* Reduce footer padding for mobile */
     footer {
         padding: 10px;
     }
-}
-
-/* Tablet and larger screens */
-@media (min-width: 769px) {
-    /* Reset mobile styles for tablet and larger screens here */
     
-    /* Example: Increase font size for tablet */
-    nav ul li a {
-        font-size: 16px;
+    #home {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #home img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Adjust video width for small screens */
+    video {
+        width: 100%;
+        height: auto;
     }
 }
