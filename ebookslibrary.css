@@ -27,7 +27,7 @@ nav ul li:last-child{
     order: 2;
 }
 .logo-container img{
-    max-height: 50px;
+    max-height: 20px;
 }
 .search-container{
     order: 3;
